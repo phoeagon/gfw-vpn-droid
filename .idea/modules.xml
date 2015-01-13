@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///legacy/home/phoeagon/AndroidStudioProjects/gfw-sim/app/app.iml" filepath="/legacy/home/phoeagon/AndroidStudioProjects/gfw-sim/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gfw-sim.iml" filepath="$PROJECT_DIR$/gfw-sim.iml" />
+    </modules>
+  </component>
+</project>
+

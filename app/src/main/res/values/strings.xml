@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">gfw-sim</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main">GFW Simulator</string>
+    <string name="hello_world">Click on the button below to toggle GFW!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
