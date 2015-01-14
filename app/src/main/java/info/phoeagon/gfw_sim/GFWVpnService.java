@@ -32,7 +32,7 @@ public class GFWVpnService extends VpnService {
             PendingIntent pIntent = PendingIntent.getActivity(this, 0, statusActivityIntent, 0);
             VpnService.Builder b = new Builder()
                     .setConfigureIntent(pIntent)
-                    .setSession("fqrouter2")
+                    .setSession("gfwrouter")
                     .addAddress("10.25.1.1", 24)
                     .addDnsServer("180.76.76.76")
                     .setMtu(1280);
