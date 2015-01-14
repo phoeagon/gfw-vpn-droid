@@ -3,8 +3,13 @@
 
     <string name="app_name">gfw-sim</string>
     <string name="title_item_detail">Item Detail</string>
-    <string name="title_activity_main">GFW Simulator</string>
-    <string name="hello_world">Click on the button below to toggle GFW!</string>
+    <string name="title_activity_main">GFW VPN</string>
+    <string name="main_activity_title">GFW VPN</string>
+    <string name="main_activity_author">by phoeagon (admin@gfwrouter.info)</string>
+    <string name="main_activity_instructions">Click on the button below to toggle GFW VPN!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="website">http://gfwrouter.info</string>
+    <string name="mailto">mailto:admin@gfwrouter.info</string>
 
 </resources>

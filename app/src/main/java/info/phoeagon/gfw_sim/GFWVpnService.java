@@ -28,7 +28,10 @@ public class GFWVpnService extends VpnService {
             if (tunPFD != null) {
                 throw new RuntimeException("another VPN is still running");
             }
+            Intent statusActivityIntent = new Intent(this, MainActivity.class);
+            PendingIntent pIntent = PendingIntent.getActivity(this, 0, statusActivityIntent, 0);
             VpnService.Builder b = new Builder()
+                    .setConfigureIntent(pIntent)
                     .setSession("fqrouter2")
                     .addAddress("10.25.1.1", 24)
                     .addDnsServer("180.76.76.76")
