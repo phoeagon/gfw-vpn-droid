@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import java.io.*;
+import com.stericson.RootTools.RootTools;
 
 /**
  * Created by phoeagon on 15-1-13.
@@ -34,6 +35,7 @@ public class GFWVpnService extends VpnService {
                     .setConfigureIntent(pIntent)
                     .setSession("gfwrouter")
                     .addAddress("10.25.1.1", 24)
+                    .addDnsServer("114.114.114.114")
                     .addDnsServer("180.76.76.76")
                     .setMtu(1280);
             Configure.init(getApplicationContext());
