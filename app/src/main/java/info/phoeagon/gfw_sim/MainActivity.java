@@ -75,6 +75,7 @@ public class MainActivity extends Activity {
                     //if ( dns != null )
                     //    configureDNS(dns);
                     vpn.onRevoke();
+                    vpn.onDestroy();
                     Toast.makeText(getApplicationContext(), "GFW Vpn Stopped", Toast.LENGTH_LONG).show();
                     btn.setColor(getResources().getColor(R.color.accent));
                 }else {
